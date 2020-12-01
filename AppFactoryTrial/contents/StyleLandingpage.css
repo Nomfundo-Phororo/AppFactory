@@ -1,0 +1,225 @@
+﻿* 
+{
+    box-sizing:border-box;
+}
+
+body, html {
+    height: 100%;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).jpg");
+    /* Half height */
+    height: 50%;
+    /*body {
+    background-color:white;
+    /*#383838*/*/
+}
+nav > ul {
+    width: 98%;
+    border: 2px solid grey;
+    border-color: #16a085 ;
+    height: 70px;
+    background-color: #696969;
+    margin: 0 10% 0 0;
+    border-radius: 5px
+}
+
+nav ul li {
+    float: right;
+    padding: 20px;
+    margin: 0;
+    border-radius: 10px;
+    text-align: center;
+    list-style: none;
+    font-family: 'Yu Gothic';
+    font-family: 'Yu Gothic';
+    font-size: 20px;
+ 
+}
+
+    nav ul li a:hover {
+        background-color: #16a085;
+    }
+     nav ul li ul li {
+         display: none;
+
+     }
+    nav ul li:hover ul li {
+        display: block;
+        float: none;
+        text-align: center;
+        border-color: #16a085;
+        height: 50px;
+        background-color: grey;
+        font-family: 'Yu Gothic';
+        font-size: 20px;
+        color: white;
+    }
+        nav ul li:hover ul li:hover {
+            background-color: #16a085;
+        }
+        nav ul li a:focus,
+        nav ul li a:active,
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+h1 {
+    font-size: 80px;
+    color: #16a085;
+    text-align: center;
+    font-family: 'Yu Gothic';
+}
+h2 {
+    font-size: 60px;
+    color: #16a085;
+    text-align: center;
+    font-family: 'Yu Gothic';
+    animation: mymove ease-in-out 3s normal;
+    /*text-decoration:underline;*/
+}
+@keyframes mymove {
+    0% {
+     transform:translateY(-20px);
+    }
+}
+hr
+{
+    width:55%;
+   
+}
+.ErrorMessage {
+    font-size: 10px;
+text-decoration-color:red;
+    text-align: center;
+    font-family: 'Yu Gothic';
+    margin-left: 293px;
+}
+
+.Formdividers {
+    font-size: 30px;
+    text-decoration-line:underline;
+    text-align:center;
+    font-family: 'Yu Gothic';
+}
+img {
+    width: 360px;
+    height: 250px;
+    margin: 0 25px 0 90px;
+}
+.button {
+    margin: 0 0 0 5%;
+    height: 100px;
+    width: 250px;
+    color: #16a085;
+    font-family: 'Yu Gothic';
+    font-size: 30px;
+    border-radius: 50px;
+    border: 2px inset white;
+    border-color: #383838;
+    background-color: transparent;
+    /*box-shadow: 0.1em 0.1em 0.9em inset;*/
+}
+
+    .button:hover {
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+     
+    }
+section {
+    /*border: 1px solid;
+    width: 890px;
+    height: 620px;
+    border-color: #FFB6C1;
+ 
+    margin: 0 20% 0 30%*/
+    text-align:center;
+}
+h4 {
+    font-size: 30px;
+    color: white;
+    font-family: 'Yu Gothic';
+    text-align:center;
+}
+
+p {
+    color: #383838;
+    font-family: 'Yu Gothic';
+    font-size: 25px;
+    text-align: center;
+}
+.label {
+    text-align: center;
+    list-style: none;
+    font-family: 'Yu Gothic';
+    font-size: 30px;
+    color: white;
+    margin: 10% 0 0 3px;
+
+}
+
+.textbox {
+    border: 2px solid #16a085;
+    border-radius: 15px;
+    height: 25px;
+    width: 240px;
+    margin-left: 25px;
+}
+section > .label {
+    width: 50%;
+    border: 2px solid #16a085;
+    height: 1500px;
+    background-color: transparent;
+    margin: 0 0 0 25%;
+    border-radius: 5px;
+    box-shadow: 15px 15px;
+}
+.activeques {
+  text-align:center;
+
+    font-family: 'Yu Gothic';
+    font-size: 20px;
+    color: white;
+    margin: 10% 0 0 3px;
+}
+.RequiredField {
+    font-family: 'Yu Gothic';
+    font-size: 30px;
+    color: white;
+    margin: 0 0 0 5%;
+}
+
+#Calendar1 {
+    border: 2px solid #16a085;
+    height: 80px;
+    width: 150px;
+    margin: 0 0 0 37%;
+    font-size: 20px;
+}
+.roletable {
+    margin: 5% 0 0 20%;
+    font-family: 'Yu Gothic';
+
+}
+.Persontable {
+    margin: 5% 0 0 0;
+    font-family: 'Yu Gothic';
+
+}
+.tablebutton {
+    margin: 0 0 0 5%;
+    height: 50px;
+    width: 50px;
+    color: whitesmoke;
+    font-family: 'Yu Gothic';
+    font-size: 15px;
+    border-radius: 50px;
+    border: 2px inset white;
+    border-color: white;
+    background-color: transparent;
+}
+    .tablebutton:hover {
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
